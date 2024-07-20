@@ -1,4 +1,3 @@
-<script>
   document.addEventListener("DOMContentLoaded", function() {
     // Get all elements with the custom attribute 'data-color'
     var elements = document.querySelectorAll('[data-color]');
@@ -11,4 +10,4 @@
       element.style.backgroundColor = color;
     });
   });
-</script>
+
